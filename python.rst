@@ -11,8 +11,8 @@ Getting started
 2) Install git following the instructions here: https://help.github.com/articles/set-up-git/
 
    
-3) As demonstrated in class, clone this repository: https://github.com/phaustin/numeric Open a command window, cd into the cloned directory and
-   cd into the folder numlabs.  Execute the following command::
+3) As demonstrated in class, clone this repository: https://github.com/phaustin/numeric Open a command window, cd into the cloned directory "numeric"
+   Once inside that directory execute the following command::
 
      pip install -e .
 
