@@ -9,8 +9,10 @@ Numerical Methods
 .. toctree::
    :maxdepth: 2
 
-   A409 Syllabus (from 2011) <syllabus15>
+   Undergrad Syllabus  <ugradsyllabus15>
 
+   Grad Syllabus   <gradsyllabus15>
+   
    Detailed Schedule <schedule15>
               
    Python resources: start here <python>
