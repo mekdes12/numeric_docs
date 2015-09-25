@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+
+\input{../../def.tex}
+
+\pagestyle{empty}
+
+\def\theenumi{\Roman{enumi}}
+
+\begin{document}
+
+\section*{Assignment Set for Laboratory 10: Optional Lab}
+
+EOSC 511/ATSC 506: 
+
+ \begin{enumerate}
+\item Modify {\em advection3.m} to solve the following advection problem:  The wind is moving along the x-axis with speed \\ $u = 10 {\rm m\,s}^{-1} \{2 + \cos[2 \pi\,i/(Numpoints-1)]\}$.  The initial distribution curve is 290 km in width.  Use your program to approximate the curve during 24 hours.
+
+\item Run your program for different orders of approximating polynomials
+(up to 4).
+Compare the accuracy of approximation for different orders.
+Do you see better results with increasing order? Is this true for all
+orders from 0 to 4? Is there any peculiarity to odd and even order
+polynomials?
+
+\item For odd ordered polynomials, \textit{advection3.m} uses the representation
+of $a_{j,k}$ that involves an
+extra point to the right of the centre grid point. Modify the table
+of coefficients for odd ordered polynomials (\textit{l1\_table} and
+\textit{l3\_table}) to use the extra point to the left of the centre
+grid point. Run your program again and compare the results of 2 different
+representations of  $a_{j,k}$ for order 3. Is one representation better than the other, or about the same, or does each have its own problem? How, do you think
+the different representation affects the result?  
+
+\end{enumerate}
+
+\end{document}
