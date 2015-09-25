@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+
+\input{../../def.tex}
+
+\pagestyle{empty}
+
+\def\theenumi{\Roman{enumi}}
+
+\begin{document}
+
+\section*{Assignment Set for Laboratory 8: Optional Lab}
+
+EOSC 511/ATSC 506: 
+
+ Note, the given input parameters may be inappropriate.  In particular
+a maximum iteration number of 10 is too small.  Make sure your
+relaxation scheme is converging.
+
+Problem numbers below refer to the problems in the lab text itself.
+
+
+
+\begin{enumerate}
+\item Do FIRST this subset of problem 3.  Compare the efficiency of the 
+SOR method and the Jacobi iteration. 
+
+\item Then using the more efficient scheme, 
+choose one parameter of the problem
+(eg depth, width of ocean, vertical viscosity, wind stress, latitude)
+vary it (3 or 4 choices) and compare the solutions.
+
+\item Then using the most efficient scheme, attack this subset of problem 2.  
+Choosing one of 5.16/5.17/5.18 compare the stability of the code to that of the
+Arakawa Jacobian.  Note, as you are looking for nonlinear instability
+it will occur faster if you make the wind speed higher (say by a factor
+of 10).
+
+\end{enumerate}
+
+\end{document}
