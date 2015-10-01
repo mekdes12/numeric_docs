@@ -17,7 +17,9 @@ Numerical Methods
               
    Python resources: start here <python>
 
+   Optional texts <texts>
+   
    Course/lab descriptions <lab_descriptions>
 
-
+   Quizzes <quizzes>
 

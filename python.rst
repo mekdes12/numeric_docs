@@ -5,19 +5,30 @@
 Getting started
 ---------------
 
-1) Install Anaconda Python version 3.4 following the instructions here: http://clouds.eos.ubc.ca/~phil/djpine_python/apdx1/apdx1_install.html
+#. Install Anaconda Python version 3.4 following the instructions here: http://clouds.eos.ubc.ca/~phil/djpine_python/apdx1/apdx1_install.html
    and http://clouds.eos.ubc.ca/~phil/djpine_python/chap2/chap2_basics.html#launching-spyder
 
-2) Install git following the instructions here: https://help.github.com/articles/set-up-git/
+#. Sign up for a free account on `Github <https://github.com/>`_ and log in to their web page.
 
+#. Download and install the command line git from http://git-scm.com/download/mac (for osx)  or
+   https://git-for-windows.github.io/  (for windows).  If you are using a lab computer, git is already
+   installed.
+
+#. Clone our repository  https://github.com/phaustin/numeric as explained in this screencast:  `Cloning numeric <http://www.youtube.com/watch?v=Njn_9vJnSFg>`_
+
+   #.  On the lab computers, clone the numeric
+
+       folder to z:\numeric
+
+   #.  On your personal computer clone the folder to a directory of your choice
    
-3) As demonstrated in class, clone this repository: https://github.com/phaustin/numeric Open a command window, cd into the cloned directory "numeric"
+#. Anaconda python on the  lab computers knows how to import modules from z:\numeric so you're done.
+   On your personal computer, you need to open a command window, cd into the cloned directory "numeric"
    Once inside that directory execute the following command::
 
      pip install -e .
 
    This will put a link to the code in the numlabs folder in your pythonpath, so that you can import lab modules into python.
-
 
               
 Books and tutorials
