@@ -1,7 +1,5 @@
 \documentclass[12pt]{article}
 
-\input{../../def.tex}
-
 \pagestyle{empty}
 
 \def\theenumi{\Roman{enumi}}
@@ -12,28 +10,31 @@
 
 EOSC 511/ATSC 506: 
 
- Note, the given input parameters may be inappropriate.  In particular
-a maximum iteration number of 10 is too small.  Make sure your
-relaxation scheme is converging.
-
 Problem numbers below refer to the problems in the lab text itself.
 
 
 
 \begin{enumerate}
-\item Do FIRST this subset of problem 3.  Compare the efficiency of the 
-SOR method and the Jacobi iteration. 
+\item Do FIRST this subset of problem 3.  Set loop=True, and  compare the efficiency of the 
+SOR method (currently implemented, suggest over-relaxation coefficient
+of 1.7) and the Jacobi iteration (you need to implement, suggest
+coefficient of 1; I find 1.7 unstable).  Also compare to indexing the
+loops and doing Jacobi interation by setting loop=False.  You can
+time functions using \%timeit
 
-\item Then using the more efficient scheme, 
+\item Then using the most efficient scheme, 
 choose one parameter of the problem
 (eg depth, width of ocean, vertical viscosity, wind stress, latitude)
 vary it (3 or 4 choices) and compare the solutions.
 
-\item Then using the most efficient scheme, attack this subset of problem 2.  
-Choosing one of 5.16/5.17/5.18 compare the stability of the code to that of the
-Arakawa Jacobian.  Note, as you are looking for nonlinear instability
-it will occur faster if you make the wind speed higher (say by a factor
-of 10).
+\item Continue to use the most efficient scheme. Set the wind-stress to zero.
+Initialize the stream-function (both psi\_1 and psi\_2) with a blob of fluid somewhere over to the east (say a Gaussian 3/4 of the way across with a radius of several grid points).  Make sure that the boundary condition (psi = 0 on all walls) is enforced.
+
+The blob should move west like a Rossby wave (the natural wave in this problem, a one-way wave, only moves west).  Compare the time-scale of the westward movement to the time-scale of reaching steady state in the wind-driven case.
+
+
+{\it (Wikipedia entry on Rossby waves is currently okay if you want a quick read about them.  The time scale given for Rossby waves across the ocean is for baroclinic (slow) waves.  You are doing barotropic (fast) waves).}
+
 
 \end{enumerate}
 
