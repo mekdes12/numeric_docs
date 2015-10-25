@@ -77,4 +77,32 @@ _______________________________________________
 
 * download `pdf version <pdf_files/miniproject1.pdf>`_
   
+
+Lab 5: Daisyworld
+_________________
+  
+* `An html copy of the IPython notebook <html_files/lab5.html>`_
+
+* `A pdf copy of the IPython notebook <pdf_files/lab5.pdf>`_  
+
+* Assignment -- A409 do Problems 1 (constant), 2 (coupling), 4 (initial), 5 (temperature), 6 (estimate)
+
+* Assignment --  E511: do Problems 1 (constant), 2 (coupling), 4 (initial), 5 (temperature), 6 (estimate),
+  8 (adaptive), 9 (predators)
+    
+
+Lab 7: PDES using explicit finite difference
+____________________________________________
+
+* `An html copy of the IPython notebook <html_files/Lab_7.html>`_
+
+* `A pdf copy of the IPython notebook <pdf_files/Lab_7.pdf>`_  
+
+
+* Do the following question for this lab
+
+  -  A409: 1, 2a and 4
+
+  -  Grads: 2b, 4 and 5
+
   
