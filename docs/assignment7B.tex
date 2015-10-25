@@ -1,7 +1,5 @@
 \documentclass[12pt]{article}
 
-\input{def.tex}
-
 \pagestyle{empty}
 
 \begin{document}
@@ -11,13 +9,21 @@
 EOSC 511/ATSC 506: 
 
 \begin{enumerate}
-\item Hand-in an answer to questions 7b from the lab itself.
+\item Hand-in an answer to question 7b from the lab itself.
 
-\item Two matlab codes are available to answer this question.  The only real difference is the size of the domain.  For the large one (swe.m) the Coriolis force is important.  For the small one it is not (swe\_small.m).  Choose one based on your experience with the Coriolis force or lack thereof.
+\item You will use the interactive1.py code in numlabs/lab7 for this
+  question.  If your experience with the Coriolis force is minimal,
+  you can chose the ``small'' option.  See the doc string for
+  reasonable parameters.
 
-The code solves the high water level in the center (similar to rain.m) in two-dimensions using the C-grid with periodic boundary conditions on a flat bottom.  The depth is set in the function finddepth.m .  
+The code solves the high water level in the center (similar to rain.py)
+in two-dimensions with periodic boundary conditions on a flat bottom.
+The depth is set in the functions find\_depth*.  Use
+grid-C and edit the find\_depth3 function.  
 \begin{enumerate}
-\item Choose an interesting but smooth topography (remembering that the domain is periodic in both space dimensions).  Implement it in finddepth.m correctly for the C-grid staggering.  
+\item Choose an interesting but smooth topography (remembering that
+  the domain is periodic in both space dimensions).  Implement it in
+  find\_depth3 correctly given the grid-C staggering.  
 \item Run your new code. Discuss any other changes you make to the code. You may want to change what and when it plots.
 \item Explain the differences that the bottom topography makes.
 \end{enumerate}
