@@ -89,7 +89,14 @@ _________________
 
 * Assignment --  E511: do Problems 1 (constant), 2 (coupling), 4 (initial), 5 (temperature), 6 (estimate),
   8 (adaptive), 9 (predators)
-    
+
+
+Lab 6: Lorenz equations
+_______________________
+
+* `An html copy of the IPython notebook <html_files/lab6.html>`_
+
+* Assignment -- Grad ODE track -- do Problems:  Experiment, Steady States, Adaptive and Sensitivity
 
 Lab 7: PDES using explicit finite difference
 ____________________________________________
@@ -105,4 +112,18 @@ ____________________________________________
 
   -  Grads: 2b, 4 and 5
 
+
+* For E511 PDE track do the problems labeled 7b in the lab
   
+  
+Lab 8: PDE Lab - Solution of the quasi-geostrophic equations using an implicit scheme
+_____________________________________________________________________________________
+
+* `An html copy of the IPython notebook <html_files/Lab_8.html>`_
+
+* The `lab 8 assignment <pdf_files/assignment8.pdf>`_
+
+Projects
+________
+
+* `Project information <pdf_files/projects.pdf>`_
