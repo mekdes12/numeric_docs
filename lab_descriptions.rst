@@ -96,6 +96,9 @@ _______________________
 
 * `An html copy of the IPython notebook <html_files/lab6.html>`_
 
+* `A pdf copy of the IPython notebook <pdf_files/lab6.pdf>`_  
+
+  
 * Assignment -- Grad ODE track -- do Problems:  Experiment, Steady States, Adaptive and Sensitivity
 
 Lab 7: PDES using explicit finite difference
@@ -121,6 +124,9 @@ ________________________________________________________________________________
 
 * `An html copy of the IPython notebook <html_files/Lab_8.html>`_
 
+* `A pdf copy of the IPython notebook <pdf_files/Lab_8.pdf>`_  
+  
+  
 * The `lab 8 assignment <pdf_files/assignment8.pdf>`_
 
 Projects
