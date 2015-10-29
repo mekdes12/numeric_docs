@@ -1,10 +1,8 @@
 \documentclass[12pt]{article}
 
-\input{../../def.tex}
 
 \pagestyle{empty}
 
-\def\theenumi{\Roman{enumi}}
 
 \begin{document}
 
@@ -13,7 +11,11 @@
 EOSC 511/ATSC 506: 
 
  \begin{enumerate}
-\item Modify {\em advection3.m} to solve the following advection problem:  The wind is moving along the x-axis with speed \\ $u = 10 {\rm m\,s}^{-1} \{2 + \cos[2 \pi\,i/(Numpoints-1)]\}$.  The initial distribution curve is 290 km in width.  Use your program to approximate the curve during 24 hours.
+\item Modify {\em advection\_funs.py} to solve the following advection
+  problem:  The wind is moving along the x-axis with speed \\ $u = 10
+  {\rm m\,s}^{-1} \{2 + \cos[2 \pi\,i/(Numpoints-1)]\}$.  The initial
+  distribution curve is 290 km in width.  Use your program to
+  approximate the curve during 24 hours using the Bott schemes (advection3).
 
 \item Run your program for different orders of approximating polynomials
 (up to 4).
