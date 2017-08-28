@@ -2,6 +2,8 @@
    :hidden:
 
    <assignment1>
+   <miniproject2>
+   <lab5b>
 
 Lab/course information
 ======================
@@ -90,7 +92,24 @@ _________________
 * Assignment --  E511: do Problems 1 (constant), 2 (coupling), 4 (initial), 5 (temperature), 6 (estimate),
   8 (adaptive), 9 (predators)
 
+* Lab 5b: ODE track
 
+  :ref:`foxes`
+
+Miniproject 2: Rabbits and foxes
+________________________________
+
+* :ref:`mini2`
+
+
+Grad course: New third track for optional labs
+______________________________________________
+
+* Lab 5b, 6 (ODE's)
+
+* Lab 7b, 10 (PDE's)
+
+  
 Lab 6: Lorenz equations
 _______________________
 
@@ -116,7 +135,7 @@ ____________________________________________
   -  Grads: 2b, 4 and 5
 
 
-* For E511 PDE track do the problems labeled 7b in the lab
+* For E511 PDE track do the problems outlined in `assignment7B.pdf <pdf_files/assignment7B.pdf>`_
   
   
 Lab 8: PDE Lab - Solution of the quasi-geostrophic equations using an implicit scheme
@@ -129,6 +148,29 @@ ________________________________________________________________________________
   
 * The `lab 8 assignment <pdf_files/assignment8.pdf>`_
 
+
+Lab 9: FFTs
+-----------
+
+*
+
+
+
+
+
+
+  
+Lab 10: Advection
+_________________
+
+* `An html copy of the IPython notebook <html_files/Lab_10.html>`_
+
+* `A pdf copy of the IPython notebook <pdf_files/Lab_10.pdf>`_  
+  
+
+* Do problem 1
+
+  
 Projects
 ________
 
