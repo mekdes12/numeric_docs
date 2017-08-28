@@ -13,7 +13,7 @@ Numerical Methods
 
    Grad Syllabus   <gradsyllabus15>
    
-   Detailed Schedule <schedule15>
+   Detailed Schedule <schedule17>
               
    Python resources: start here <python>
 

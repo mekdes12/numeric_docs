@@ -19,8 +19,8 @@ advection, population growth.
 Instructors
 -----------
 
-| Phil Austin, 2-2175, paustin@eos.ubc.ca, Rm 157 EOS South
-| Susan Allen, 2-2828, sallen@eos.ubc.ca, Rm 3017, ESB
+| Phil Austin, 2-2175, paustin@eoas.ubc.ca, Rm 157 EOS South
+| Susan Allen, 2-2828, sallen@eoas.ubc.ca, Rm 3017, ESB
 
 Prerequisites
 -------------
