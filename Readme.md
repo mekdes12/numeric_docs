@@ -1,9 +1,23 @@
+1)  in top directory do:
+
 ./doit.sh
 
-to build pages in _build
+to build html site
+
+2) in pdf_create do:
+
+./doit.sh
+
+to build latex version of syllabus
+
+3) in top directory do:
 
 ./rsync.sh
 
-to copy pages to server as
+to sync all material to web server
+
+./doit.sh
+
+final result:
 
 http://clouds.eos.ubc.ca/~phil/numeric
