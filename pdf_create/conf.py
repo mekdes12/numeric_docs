@@ -212,7 +212,7 @@ html_sidebars = {'**': ['localtoc.html']}
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'curric'
+htmlhelp_basename = 'numeric'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -234,8 +234,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'curric.tex', 'curric Documentation',
-   'curric', 'manual'),
+  (master_doc, 'numeric.tex', 'Numeric Class Schedules',
+   'numeric', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
