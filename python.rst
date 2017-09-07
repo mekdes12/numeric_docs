@@ -49,11 +49,11 @@ Getting started
 
         git clone https://github.com/phaustin/numeric.git
 
-#.  cd into the numeric folder and install the course software by typing (note the double minus sign in front of the e):
+#.  cd into the numeric folder and install the course software by typing (note single  minus sign in front of the e):
 
         pip install -e .
 
-#.  cd into the numeric/utilities folder and install the required python packages by typing
+#.  cd into the numeric/utilities folder and install the required python packages by typing (note two minus signs in front of the file flag):
 
        conda install --file class_specs.txt
 
@@ -66,11 +66,23 @@ Getting started
 Books and tutorials
 -------------------
 
--  Jake Vanderplas' [Whirlwind tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython/blob/f40b435dea823ad5f094d48d158cc8b8f282e9d5/Index.ipynb) is available both as a set of notebooks which you can clone from github or as a free ebook: http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp
+- If you are new to python, I would recommend you go over the following ebook in detail:
 
-- A Springer ebook from the UBC library:  [Numerical Python](https://login.ezproxy.library.ubc.ca/login?qurl=https%3a%2f%2flink.springer.com%2fopenurl%3fgenre%3dbook%26isbn%3d978-1-4842-0554-9)
+  -  Jake Vanderplas' `Whirlwind tour of Python <https://github.com/jakevdp/WhirlwindTourOfPython/blob/f40b435dea823ad5f094d48d158cc8b8f282e9d5/Index.ipynb>`_ is available both as a set of notebooks which you can clone from github or as a free ebook: http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp
+
+     - to get the notebooks do:
+
+       git clone https://github.com/jakevdp/WhirlwindTourOfPython
+
+- We will be referencing chapters from:
    
-- Two texts that are available as a set of notebooks:   
+  - A Springer ebook from the UBC library:  `Numerical Python <https://login.ezproxy.library.ubc.ca/login?qurl=https%3a%2f%2flink.springer.com%2fopenurl%3fgenre%3dbook%26isbn%3d978-1-4842-0554-9>`_
+
+    - with code on github:
+
+      git clone https://github.com/jrjohansson/numerical-python-book-code
+   
+- Two other texts that are available as a set of notebooks you can clone with git:   
 
   - https://github.com/fangohr/introduction-to-python-for-computational-science-and-engineering   
 
@@ -85,7 +97,12 @@ Books and tutorials
 - Some other resources:
 
   - If you know Matlab, there is `Numpy for Maltab users <http://wiki.scipy.org/NumPy_for_Matlab_Users>`_
-  
+
+  - Here is a `python translation <http://nbviewer.jupyter.org/gist/phaustin/1af744215e51562d010b9f6a19c0724c>`_  by `Don MacMillen <http://blogs.siam.org/from-matlab-guide-to-ipython-notebook/>`_ of `Chapter 1 of his matlab guide <http://clouds.eos.ubc.ca/~phil/courses/atsc301/downloads_pw/matlab_guide_2nd.pdf>`_
+        
+  - `Python data structure cheat sheet <pdffiles/Python-data-manipulations.pdf>`_
+
+
   - `Numpy beginners guide <http://www.packtpub.com/numpy-mathematical-2e-beginners-guide/book>`_
 
   - `Learning Ipython <http://www.packtpub.com/learning-ipython-for-interactive-computing-and-data-visualization/book>`_
@@ -93,7 +110,12 @@ Books and tutorials
   - `The official Python tutorial <http://docs.python.org/tut/tut.html>`_
 
   - `Numpy cookbook <http://www.packtpub.com/numpy-for-python-cookbook/book>`_
+  
+  - A general computing introduction: `How to think like a computer scientist <http://www.openbookproject.net/thinkcs/python/english3e>`_ with an `interactive version <http://interactivepython.org/courselib/static/thinkcspy/index.html>`_
 
+  - `Think Stats <http://greenteapress.com/wp/think-stats-2e/>`_
+
+  - `Think Bayes <http://greenteapress.com/wp/think-bayes/>`_ 
 
 
 
