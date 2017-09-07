@@ -2,64 +2,82 @@
    :maxdepth: 1
 
 
-Getting started
+Getting started 
 ---------------
 
-#. Install Anaconda Python version 3.4 following the instructions here: http://clouds.eos.ubc.ca/~phil/djpine_python/apdx1/apdx1_install.html
-   and http://clouds.eos.ubc.ca/~phil/djpine_python/chap2/chap2_basics.html#launching-spyder
+#. Find the name of your home directory
 
-#. Sign up for a free account on `Github <https://github.com/>`_ and log in to their web page.
+   On windows:
 
-#. Download and install the command line git from http://git-scm.com/download/mac (for osx)  or
-   https://git-for-windows.github.io/  (for windows).  If you are using a lab computer, git is already
-   installed.
+   #. start a cmd shell by typing "cmd" in the windows search bar and executing the
+      dos command prompt
 
-#. Clone our repository  https://github.com/phaustin/numeric as explained in this screencast:  `Cloning numeric <http://www.youtube.com/watch?v=Njn_9vJnSFg>`_
+   #. Note the location that is listed when you type
 
-   #.  On the lab computers, clone the numeric
+      echo %userprofile%
 
-       folder to z:\numeric
+      in the command window
 
-   #.  On your personal computer clone the folder to a directory of your choice
-   
-#. Anaconda python on the  lab computers knows how to import modules from z:\numeric so you're done.
-   On your personal computer, you need to open a command window, cd into the cloned directory "numeric"
-   Once inside that directory execute the following command::
+   On macs:
 
-     pip install -e .
+#. Start a terminal by typing terminal in spotlight
 
-   This will put a link to the code in the numlabs folder in your pythonpath, so that you can import lab modules into python.
+   #. Note the location that is listed when you type
 
+      echo $HOME
+
+#. Install Miniconda Python version 3.6 from https://conda.io/miniconda.html
+   into a a folder called mini36 in your home directory.   When prompted, choose to install for just yourself, but make miniconda python the default python
+
+#. To see if your installation is working, start a terminal and type
+
+   where python  (on windows)
+
+   or
+
+   which python (on macs)
+
+   You should see that mini36 python is the version that is found on your path
+
+#. Install the git version control package (which we will learn more about later).  To do this, type
+
+   conda install git
+
+   at a prompt and answer yes to permit the install
+
+#.  Clone the course software into a directory of your choosing.  Create a folder somewhere under your home directory and cd into that folder.  Then type the following at the prompt:
+
+        git clone https://github.com/phaustin/numeric.git
+
+#.  cd into the numeric folder and install the course software by typing (note the double minus sign in front of the e):
+
+        pip install -e .
+
+#.  cd into the numeric/utilities folder and install the required python packages by typing
+
+       conda install --file class_specs.txt
+
+#.  If the packages have installed correctly then typing
+
+       jupyter notebook
+
+    at a prompt should launch jupyter.
               
 Books and tutorials
 -------------------
 
+-  Jake Vanderplas' [Whirlwind tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython/blob/f40b435dea823ad5f094d48d158cc8b8f282e9d5/Index.ipynb) is available both as a set of notebooks which you can clone from github or as a free ebook: http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp
+
+- A Springer ebook from the UBC library:  [Numerical Python](https://login.ezproxy.library.ubc.ca/login?qurl=https%3a%2f%2flink.springer.com%2fopenurl%3fgenre%3dbook%26isbn%3d978-1-4842-0554-9)
+   
+- Two texts that are available as a set of notebooks:   
+
+  - https://github.com/fangohr/introduction-to-python-for-computational-science-and-engineering   
+
+  - https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb
+     
 -  Our version of David Pine's Introduction to Python:  http://clouds.eos.ubc.ca/~phil/djpine_python/
-
--  `A 2.5 hour tutorial on Scientific Python <https://www.youtube.com/watch?v=pB3BFP001co&index=2&list=PL8bnUgXZwcIGW__9LoBFOeSTa0spNa_ju>`_.
-
-   The `slides for the tutorial <http://jiffyclub.github.io/2015-07-06-scipy/python/>`_
-
--  `IPython (3.0) notebook basics <http://nbviewer.ipython.org/github/ipython/ipython-in-depth/blob/master/examples/Notebook/Notebook%20Basics.ipynb>`_. To get the notebook: click on the link and then 
-   right click on the download arrow in the upper right corner.  IPython comes with the anaconda install described below.  
-   To open the notebook with ipython in OSX or Linux, launch a terminal (or in Windows, cmd.exe), cd to the directory that
-   contains the *Notebook Basics.ipynb* file and type::
-
-      ipython notebook
    
-   Your default browser will open the dashboard page, click on the link that says *Notebook Basics*.
-
-- `Python Crash Course <http://nbviewer.ipython.org/github/barbagroup/CFDPython/blob/master/lessons/00_Quick_Python_Intro.ipynb>`_, part of `CFD Python <https://github.com/barbagroup/CFDPython/blob/master/README.md>`_
-   
-- `Lecture notes as IPython notebooks <http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb>`_ by `J. R. Johansson <http://dml.riken.jp/~rob/>`_   (Download from https://github.com/jrjohansson/scientific-python-lectures by either cloning the repository or clicking the *download zip* button on the right hand side).
-
-- `Python Scientific Lecture Notes <http://scipy-lectures.github.com/>`_
-
-- `Johnny Lin's Python for Atmospheric/Ocean Sciences <http://www.johnny-lin.com/pyintro/>`_
-
-- `Python for Data Scientists <http://blog.yhathq.com/posts/data-science-in-python-tutorial.html>`_
-
-
 - My favorite O'Reilly book is:
 
   - `Python for Data Analysis <http://shop.oreilly.com/product/0636920023784.do>`_
@@ -73,8 +91,6 @@ Books and tutorials
   - `Learning Ipython <http://www.packtpub.com/learning-ipython-for-interactive-computing-and-data-visualization/book>`_
 
   - `The official Python tutorial <http://docs.python.org/tut/tut.html>`_
-
-  - `Python for high performance computing <http://www.packtpub.com/python-high-performance-programming/book>`_
 
   - `Numpy cookbook <http://www.packtpub.com/numpy-for-python-cookbook/book>`_
 
