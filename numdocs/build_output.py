@@ -25,12 +25,19 @@ appends to list for recompilation
 
 """
 from bookbook.html import convert as convert_html
-from bookbook.latex import combine_and_convert as convert_latex
+from bookbook.latex import combine_notebooks, export
 import os
 from tempfile import TemporaryDirectory
 from pathlib import Path
 import re
 import subprocess
+
+
+
+def convert_latex(source_dir: Path, output_file: Path, pdf=False, template_file=None):
+    notebook_files = sorted(source_dir.glob('*-*.ipynb'))
+    combined_nb = combine_notebooks(notebook_files)
+    export(combined_nb, output_file, pdf=pdf, template_file=template_file)
 
 
 
@@ -80,6 +87,7 @@ def build_pages(notebook: dict):
         os.chdir(return_dir)
 
 if __name__ == "__main__":
+    print('debug: ')
     numlabs=Path(os.environ['numlabs']).resolve()
     numdocs=Path(os.environ['numdocs']).resolve()
     the_notebooks=list(numlabs.glob('**/*.ipynb'))

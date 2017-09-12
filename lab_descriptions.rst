@@ -16,15 +16,15 @@ ________________________________________
   folder containing your cloned numeric repository and cd to the lab1 folder. Then
   start IPython by typing::
 
-    ipython notebook Lab_1.ipynb
+    ipython notebook 01-lab1.ipynb
 
   This will launch your browser with the notebook as demonstrated in class. 
 
 * If you want to read the lab offline, here are:
 
-  * `An html copy of the IPython notebook <html_files/Lab_1.html>`_
+  * `An html copy of the IPython notebook <html_files/01-lab1.html>`_
 
-  * `A pdf copy of the   IPython notebook  <pdf_files/Lab_1.pdf>`_
+  * `A pdf copy of the   IPython notebook  <pdf_files/01-lab1.pdf>`_
 
 * After you have gone through the lab, answer the following questions:
 
@@ -34,15 +34,15 @@ Lab 2: Stability and accuracy
 _____________________________
 
 
-* The notebook is checked into git at `lab2.ipynb <https://github.com/phaustin/numeric/tree/master/lab2/lab2.ipynb>`_
+* The notebook is checked into git at `01-lab2.ipynb <https://github.com/phaustin/numeric/tree/master/lab2/01-lab2.ipynb>`_
   Change to your cloned numeric folder and type "git pull" in a command window to update
   your repository and fetch it
 
 * If you want to read the lab offline, here are:
 
-  * `An html copy of the IPython notebook <html_files/lab2.html>`_
+  * `An html copy of the IPython notebook <html_files/01-lab2.html>`_
 
-  * `A pdf copy of the   IPython notebook  <pdf_files/lab2.pdf>`_
+  * `A pdf copy of the   IPython notebook  <pdf_files/01-lab2.pdf>`_
 
 * Assignment:  both graduate students and undergraduates should do all five problems
   (Error, Accuracy, Stability, Backward-Euler, Taylor).   Email paustin@eos.ubc.ca
@@ -56,18 +56,18 @@ The assignment for undergrads and grads is `here <pdf_files/numeric_assignment3_
 
 * If you want to read the lab offline, here are:
 
-  * `An html copy of the IPython notebook <html_files/Lab_3.html>`_
+  * `An html copy of the IPython notebook <html_files/01-lab3.html>`_
 
-  * `A pdf copy of the  IPython notebook --  <pdf_files/Lab_3.pdf>`_
+  * `A pdf copy of the  IPython notebook --  <pdf_files/01-lab3.pdf>`_
 
 
 Lab 4: Ordinary differential equations I
 ________________________________________
 
 
-* `An html copy of the IPython notebook <html_files/lab4.html>`_
+* `An html copy of the IPython notebook <html_files/01-lab4.html>`_
 
-* `A pdf copy of the IPython notebook <pdf_files/lab4.pdf>`_   
+* `A pdf copy of the IPython notebook <pdf_files/01-lab4.pdf>`_   
 
 * Assignment:  A409 do Problems 2 (tableau), 3 (Runge Kutta4), 4 (embedded), Coding A and Coding B
 
@@ -83,9 +83,9 @@ _______________________________________________
 Lab 5: Daisyworld
 _________________
   
-* `An html copy of the IPython notebook <html_files/lab5.html>`_
+* `An html copy of the IPython notebook <html_files/01-lab5.html>`_
 
-* `A pdf copy of the IPython notebook <pdf_files/lab5.pdf>`_  
+* `A pdf copy of the IPython notebook <pdf_files/01-lab5.pdf>`_  
 
 * Assignment -- A409 do Problems 1 (constant), 2 (coupling), 4 (initial), 5 (temperature), 6 (estimate)
 
