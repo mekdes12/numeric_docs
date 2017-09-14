@@ -24,8 +24,8 @@ advection, population growth.
 Instructors
 -----------
 
-| Phil Austin, 2-2175, paustin@eos.ubc.ca, Rm 157 EOS South
-| Susan Allen, 2-2828, sallen@eos.ubc.ca, Rm 3017 ESB
+| Phil Austin, 2-2175, paustin@eoas.ubc.ca, Rm 157 EOS South
+| Susan Allen, 2-2828, sallen@eoas.ubc.ca, Rm 3017 ESB
 
 Prerequisites
 -------------
@@ -96,41 +96,38 @@ of days in case. )
 Contents
 --------
 
-Each laboratory is separated into sessions of about 2 hours. You may do
-the sessions any time during the week. You will need to complete three
-sessions a week to keep up with the course material covered in the
-quizzes.
+For each laboratory we give an estimate of number of hours. You will
+need to complete six hours a week to keep up with the course material
+covered in the quizzes.
 
 -  Introductory Meeting
 
 -  Laboratory One
 
-   -  Four sessions: 1) section 3, 2) section 4, 3) section 5, 4)
-      section 6.
+   -  Estimate: 8 hours
 
-   -  Quiz #1 Objectives [2]_ pertaining to Lab 1 sections 3-5
+   -  Quiz #1 Objectives [2]_ pertaining to Lab 1 sections 4-6 (3-5
+      for 2017)
 
-   -  Quiz #2 Objectives pertaining to Lab 1 and Lab 2 sections 3-4.
+   -  Quiz #2 Objectives pertaining to Lab 1 and Lab 2 sections 4-5.
 
    -  Assignment: See web.
 
 -  Laboratory Two
 
-   -  Three sessions: 1) section 3-4.1.1, 2) section 4.1.2-end 4, 3)
-      sections 5-7
+   -  Estimate: 6 hours
 
-   -  Quiz #2 Objectives pertaining to Lab 1 and Lab 2 sections 3-4.
+   -  Quiz #2 Objectives pertaining to Lab 1 and Lab 2 sections 4-5.
 
-   -  Quiz #3 Objectives pertaining to Lab 2 and Lab 3 section 2.
+   -  Quiz #3 Objectives pertaining to Lab 2 and Lab 3 section 3.
 
    -  Assignment: See web.
 
 -  Laboratory Three
 
-   -  Four sessions: 1) section 2- begin 2.4.1, 2) section 2.4.1-end 2,
-      3) section 3-4, 4) section 5
+   -  Estimate: 8 hours
 
-   -  Quiz #3 Objectives pertaining to Lab 2 and Lab 3 section 2.
+   -  Quiz #3 Objectives pertaining to Lab 2 and Lab 3 section 3.
 
    -  Quiz #4 Objectives pertaining to Lab 3.
 
@@ -138,26 +135,25 @@ quizzes.
 
 -  Mini-Project #1
 
-   -  Two sessions
+   -  Estimate: 4 hours
 
    -  Details on web.
 
 -  Laboratory Four
 
-   -  Four sessions: 1) section 3, 2) section 4.1-4.2, 3) section 4.3-5,
-      4) finish problem set
+   -  Estimate: 8 hours
 
-   -  Quiz #5 Objectives pertaining to Lab 4 sections 3-4.2
+   -  Quiz #5 Objectives pertaining to Lab 4 sections 4-5.2
 
-   -  Quiz #6 Objectives pertaining to Lab 4 and Lab 5 section 3
+   -  Quiz #6 Objectives pertaining to Lab 4 and Lab 5 section 4
 
    -  Assignment: See web.
 
 -  Laboratory Five
 
-   -  Three sessions: 1) section 3, 2) section 4, 3) section 5
+   -  Estimate: 6 hours
 
-   -  Quiz #6 Objectives pertaining to Lab 4 and Lab 5 section 3
+   -  Quiz #6 Objectives pertaining to Lab 4 and Lab 5 section 4
 
    -  Quiz #7 Objectives pertaining to Lab 5
 
@@ -165,31 +161,29 @@ quizzes.
 
 -  Mini-Project #2
 
-   -  Two sessions
+   -  Estimate: 4 hours
 
    -  Details on web.
 
 -  Laboratory Seven (do 7 if you have PDE’s)
 
-   -  Four sessions: 1) section 3-4.3, 2) section 4.4-4.5, 3) section 5,
-      4) section 6
+   -  Estimate: 8 hours
 
-   -  Quiz #8 Objectives pertaining to Lab 7 section 3-4.3
+   -  Quiz #8 Objectives pertaining to Lab 7 section 4-5.3
 
    -  Assignment: See web.
 
 -  Laboratory Six (do 6 if you do not have PDE’s)
 
-   -  Four sessions: 1) section 3 2) section 4-4.2 3) section 4.3-4.4,
-      4) section 5-6
+   -  Estimate: 8 hours
 
-   -  Quiz #8 Objections pertaining to Lab 6 section 3
+   -  Quiz #8 Objections pertaining to Lab 6 section 4
 
 -  Assignment: See web.
 
 -  Project
 
-   -  Eight Sessions
+   -  Estimate: 16 hours
 
    -  20 minute presentation to the class
 
